@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblAreaPersonal" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lblNombreAP" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblApellidoAP" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblDireccionAP" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblTelefonoAP" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblEmailAP" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblCarreraAP" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblRunAP" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblEstadoCivilAP" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblNacionalidadAP" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="txtNacionalidadUsr" max="32767" attributes="0"/>
+                                          <Component id="txtEstadoCivilUsr" max="32767" attributes="0"/>
+                                          <Component id="txtEmailUsr" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtTelefonoUsr" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtDireccionUsr" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtApellidoUsr" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtNombreUsr" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="txtCarreraUsr" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="txtRunUsr" alignment="1" min="-2" pref="117" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="lblAreaExperiencia" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lblTiempoAE" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="txtTiempoExpUsr" min="-2" pref="102" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lblEmpresaAE" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblCargoAE" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="txtCargoExpUsr" max="32767" attributes="0"/>
+                                          <Component id="txtEmpresaExpUsr" min="-2" pref="102" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="92" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="lblAreaEducacion" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblTituloEnsenanzaSuperior" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblTituloEnsenanzaMedia" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lblNombreEM" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblEgresoEM" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblUbicacionEM" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblEgresoES" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="txtEgresoColegioUsr" max="32767" attributes="0"/>
+                                          <Component id="txtNombreColegioUsr" max="32767" attributes="0"/>
+                                          <Component id="txtUbicacionColegioUsr" max="32767" attributes="0"/>
+                                          <Component id="txtEgresoSuperiorUsr" min="-2" pref="97" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lblNombreES" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblUbicacionES" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txtNombreSuperiorUsr" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtUbicacionSuperiorUsr" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
+                              <Component id="btnProcesar" min="-2" pref="624" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblTituloMain" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="65" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblTituloMain" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblAreaPersonal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblAreaExperiencia" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblAreaEducacion" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtNombreUsr" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblNombreAP" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtTiempoExpUsr" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTiempoAE" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTituloEnsenanzaMedia" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="txtApellidoUsr" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblApellidoAP" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="txtDireccionUsr" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblDireccionAP" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblEmpresaAE" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtEmpresaExpUsr" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="txtCargoExpUsr" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblCargoAE" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtTelefonoUsr" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblTelefonoAP" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtEmailUsr" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblEmailAP" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtCarreraUsr" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblCarreraAP" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblRunAP" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtRunUsr" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtEstadoCivilUsr" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblEstadoCivilAP" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="txtNacionalidadUsr" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblNacionalidadAP" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblEgresoEM" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtEgresoColegioUsr" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblNombreEM" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtNombreColegioUsr" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtUbicacionColegioUsr" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblUbicacionEM" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblTituloEnsenanzaSuperior" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="lblEgresoES" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtEgresoSuperiorUsr" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblNombreES" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtNombreSuperiorUsr" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblUbicacionES" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtUbicacionSuperiorUsr" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="45" max="32767" attributes="0"/>
+              <Component id="btnProcesar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblTituloMain">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Generador de Curr&#xed;culum Vitae"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNombreUsr">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtApellidoUsr">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDireccionUsr">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTelefonoUsr">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtEmailUsr">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCarreraUsr">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNombreAP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombres:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblApellidoAP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Apellidos:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDireccionAP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Direcci&#xf3;n:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTelefonoAP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tel&#xe9;fono:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEmailAP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="E-Mail:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCarreraAP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Profesi&#xf3;n:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAreaPersonal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xc1;rea Personal:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAreaExperiencia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Area de Experiencia:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTiempoExpUsr">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTiempoAE">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tiempo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEmpresaAE">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Empresa:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtEmpresaExpUsr">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCargoExpUsr">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCargoAE">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cargo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAreaEducacion">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xc1;rea de Educaci&#xf3;n:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRunAP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="RUN:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtRunUsr">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtEstadoCivilUsr">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEstadoCivilAP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Estado Civil:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNacionalidadUsr">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNacionalidadAP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nacionalidad:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEgresoEM">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Egreso:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNombreEM">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre Establecimiento:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblUbicacionEM">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ubicaci&#xf3;n:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTituloEnsenanzaSuperior">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ense&#xf1;anza Superior"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTituloEnsenanzaMedia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ense&#xf1;anza Media"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtEgresoColegioUsr">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNombreColegioUsr">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtUbicacionColegioUsr">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEgresoES">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Egreso:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNombreES">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre Establecimiento:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblUbicacionES">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ubicaci&#xf3;n:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtEgresoSuperiorUsr">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNombreSuperiorUsr">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtUbicacionSuperiorUsr">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnProcesar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Procesar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnProcesarActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
